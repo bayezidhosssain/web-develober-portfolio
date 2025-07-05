@@ -17,15 +17,17 @@
 }
 .dark-2{
     color: #474747;
+    font-size: 20px;
 }
      .btn-primary{
         background-color: #FD6E0A ;
         font-weight: bold ;
-        font size: 20px;
+        font-size: 20px;
         color: white;
         border:none;
         padding: 18px 35px;
         border-radius: 5px;
+        cursor: pointer;
      }
 
      .section-title{
@@ -46,6 +48,8 @@
         background-image: url('../images/developer.png'), url('../images/header_bg.png');
         background-repeat: no-repeat;
         background-position: top left,bottom right;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
      }
      
 
@@ -59,7 +63,8 @@ nav{
 
 .nav-title{
     font-weight: 800;
-    font size: 40px;
+    font-size: 40px;
+    margin-left: 100px;
 }
  
    nav ul{
@@ -81,7 +86,7 @@ nav li a{
     margin: 0 35px 0 200px;
 }
 .banner-content{
-    max width: 580px;
+    max-width: 580px;
 }
 
 .banner-greetings{
@@ -139,6 +144,9 @@ margin: 0 auto;
  }
 
  /* resume section styles */
+ .resume{
+    margin-bottom: 50px;
+ }
  .resume-container{
     display: flex;
     gap: 24px;
@@ -176,5 +184,3 @@ margin: 0 auto;
     margin-bottom: 24px;
     border: none;
  }
-
- 
